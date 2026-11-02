@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pass IELTS with 7.5+ — Exam Preparation School</title>
+  <meta name="description" content="Preparation for IELTS and TOEFL: structured courses, graduate results, free placement test.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Theme switch: checkbox lives before everything so CSS can react to it -->
+  <input type="checkbox" id="theme-toggle" class="visually-hidden" aria-label="Dark theme">
+
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Exam Preparation School — home">
+      <svg viewBox="0 0 32 32" width="32" height="32" aria-hidden="true">
+        <path d="M4 12 16 6l12 6-12 6-12-6Z" fill="currentColor"/>
+        <path d="M9 17v5c0 2 3.2 4 7 4s7-2 7-4v-5l-7 3.5L9 17Z" fill="currentColor" opacity=".6"/>
+      </svg>
+      <span>Meridian Exams</span>
+    </a>
+
+    <input type="checkbox" id="menu-toggle" class="visually-hidden" aria-label="Open menu">
+    <label for="menu-toggle" class="burger" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+      <a class="btn btn-outline" href="#apply">Check Your Level</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Pass IELTS with 7.5+ on the First Attempt</h1>
+      <p>Small groups, weekly mock exams and feedback from certified examiners. Start with a free trial test and see your real level in 60 minutes.</p>
+      <a class="btn btn-primary" href="#apply">Take a Trial Test</a>
+    </section>
+
+    <!-- GRID: exam structure -->
+    <section class="section" id="courses" aria-labelledby="courses-title">
+      <h2 id="courses-title">Four papers, four preparation tracks</h2>
+      <p class="lead">Each part of the exam has its own training method. You work on all four in parallel.</p>
+
+      <section class="card-grid" aria-label="Exam structure">
+        <article class="card">
+          <h3>Listening</h3>
+          <p>30 minutes, 40 questions. We train note-taking, spotting distractors and following accents from the UK, Australia and North America.</p>
+        </article>
+        <article class="card">
+          <h3>Reading</h3>
+          <p>60 minutes, 3 long texts. You learn skimming, scanning and a time plan of 20 minutes per passage.</p>
+        </article>
+        <article class="card">
+          <h3>Writing</h3>
+          <p>Task 1 report and Task 2 essay. Every piece is marked against the official band descriptors within 48 hours.</p>
+        </article>
+        <article class="card">
+          <h3>Speaking</h3>
+          <p>11–14 minutes face to face with an examiner. Weekly mock interviews build fluency and vocabulary range.</p>
+        </article>
+      </section>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="section section-alt" id="results" aria-labelledby="results-title">
+      <h2 id="results-title">Graduate results</h2>
+      <section class="stats" aria-label="Statistics">
+        <article class="stat">
+          <p class="stat-value">7.2</p>
+          <p>average overall band of graduates</p>
+        </article>
+        <article class="stat">
+          <p class="stat-value">86%</p>
+          <p>reached their target band on the first attempt</p>
+        </article>
+        <article class="stat">
+          <p class="stat-value">1 200+</p>
+          <p>students prepared since 2018</p>
+        </article>
+      </section>
+    </section>
+
+    <!-- SPEAKERS -->
+    <section class="section" id="speakers" aria-labelledby="speakers-title">
+      <h2 id="speakers-title">Speakers and teachers</h2>
+      <section class="card-grid" aria-label="Teachers">
+        <article class="card">
+          <h3>Anna Petrova</h3>
+          <p>Former IELTS examiner, 12 years of teaching. Leads Writing.</p>
+        </article>
+        <article class="card">
+          <h3>James Carter</h3>
+          <p>CELTA and DELTA certified. Leads Speaking and pronunciation.</p>
+        </article>
+        <article class="card">
+          <h3>Aigerim Sadykova</h3>
+          <p>Scored 8.5 in IELTS. Leads Reading and Listening strategy.</p>
+        </article>
+      </section>
+    </section>
+
+    <!-- BLOG -->
+    <section class="section section-alt" id="blog" aria-labelledby="blog-title">
+      <h2 id="blog-title">From the blog</h2>
+      <section class="card-grid" aria-label="Articles">
+        <article class="card">
+          <h3>How to plan 60 minutes of Reading</h3>
+          <p>A simple time split that stops you from running out of time on passage three.</p>
+        </article>
+        <article class="card">
+          <h3>Five Task 2 mistakes that cost half a band</h3>
+          <p>Common errors we see in essays and how to fix each one.</p>
+        </article>
+      </section>
+    </section>
+
+    <!-- FEEDBACK FORM -->
+    <section class="section" id="apply" aria-labelledby="apply-title">
+      <h2 id="apply-title">Sign up for a free placement test</h2>
+      <p class="lead">Leave your contacts and we will message you a time slot within one working day.</p>
+
+      <form class="apply-form" action="#apply" method="post">
+        <fieldset>
+          <legend class="visually-hidden">Application</legend>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name"
+                 required minlength="2" autocomplete="name">
+
+          <label for="contact">Telegram / WhatsApp number</label>
+          <input type="tel" id="contact" name="contact" placeholder="+7 700 123 4567"
+                 required pattern="\+?[0-9 ()\-]{10,18}" autocomplete="tel">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com"
+                 required autocomplete="email">
+
+          <label for="level">Current level (CEFR)</label>
+          <select id="level" name="level" required>
+            <option value="" selected disabled>Choose your level</option>
+            <option value="A2">A2 — Elementary</option>
+            <option value="B1">B1 — Intermediate</option>
+            <option value="B2">B2 — Upper-intermediate</option>
+            <option value="C1">C1 — Advanced</option>
+          </select>
+
+          <button class="btn btn-primary" type="submit">Book my placement test</button>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <section class="footer-block" aria-label="Documents">
+      <h2>Documents</h2>
+      <ul>
+        <li><a href="#">Educational license No. 000000</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Public offer</a></li>
+      </ul>
+    </section>
+
+    <section class="footer-block" aria-label="Official exam resources">
+      <h2>Official resources</h2>
+      <ul>
+        <li><a href="https://www.ielts.org" target="_blank" rel="noopener">IELTS.org</a></li>
+        <li><a href="https://www.ets.org/toefl" target="_blank" rel="noopener">ETS TOEFL</a></li>
+        <li><a href="https://www.britishcouncil.org" target="_blank" rel="noopener">British Council</a></li>
+      </ul>
+    </section>
+
+    <section class="footer-block" aria-label="Appearance">
+      <h2>Appearance</h2>
+      <label for="theme-toggle" class="btn btn-outline theme-btn">Switch light / dark theme</label>
+    </section>
+
+    <p class="legal">© 2026 Meridian Exams. IELTS is a registered trademark of its owners; the school is not affiliated with the exam boards.</p>
+  </footer>
+
+</body>
+</html>
